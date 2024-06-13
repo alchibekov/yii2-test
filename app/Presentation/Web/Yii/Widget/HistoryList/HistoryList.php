@@ -1,9 +1,9 @@
 <?php
 
-namespace app\widgets\HistoryList;
+namespace App\Presentation\Web\Yii\Widget\HistoryList;
 
-use app\models\search\HistorySearch;
-use app\widgets\Export\Export;
+use App\Infrastructure\Persistence\Yii\Model\Search\HistorySearch;
+use App\Presentation\Web\Yii\Widget\Export\Export;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;

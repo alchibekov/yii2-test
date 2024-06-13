@@ -7,9 +7,15 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'controllerNamespace' => 'App\Infrastructure\Framework\Yii\Controller',
+    'viewPath' => 'App/Presentation/Web/Yii/views',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
+        '@domain' => '@app/Domain',
+        '@appModel' => '@app/src/Infrastructure/Persistence/yii',
+        '@appViews' => '@app/src/Presentation/Web/Yii/views',
+        '@appControllers' => '@app/src/Infrastructure/Framework/Yii',
     ],
     'name' => 'Americor Test',
     'components' => [

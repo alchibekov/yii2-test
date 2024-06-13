@@ -1,8 +1,8 @@
 <?php
 
-namespace app\models\search;
+namespace App\Infrastructure\Persistence\Yii\Model\Search;
 
-use app\models\History;
+use App\Infrastructure\Persistence\Yii\Model\History;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
